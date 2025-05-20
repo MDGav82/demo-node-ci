@@ -19,8 +19,11 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Installer les dépendances sans symlinks
+      - name: Installer les dépendances
         run: npm install --no-bin-links
 
+      - name: Modifier les permissions des binaires de jest
+        run: chmod +x ./node_modules/.bin/jest
+
       - name: Lancer les tests
-        run: npx jest
+        run: ./node_modules/.bin/jest
