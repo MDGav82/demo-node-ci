@@ -1,0 +1,24 @@
+{
+  "name": "5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDGav82/demo-node-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MDGav82/demo-node-ci/issues"
+  },
+  "homepage": "https://github.com/MDGav82/demo-node-ci#readme"
+}
